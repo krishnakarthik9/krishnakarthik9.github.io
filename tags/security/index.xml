@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>security | Krishna Karthik</title>
-    <link>https://krishnakarthik9.github.io/tags/security/</link>
-      <atom:link href="https://krishnakarthik9.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://krishnakarthik.in/tags/security/</link>
+      <atom:link href="https://krishnakarthik.in/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <description>security</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0530</lastBuildDate>
     <image>
-      <url>https://krishnakarthik9.github.io/img/icon-192.png</url>
+      <url>https://krishnakarthik.in/img/icon-192.png</url>
       <title>security</title>
-      <link>https://krishnakarthik9.github.io/tags/security/</link>
+      <link>https://krishnakarthik.in/tags/security/</link>
     </image>
     
     <item>
       <title>Secure kubeedge using SPIFFE/SPIRE</title>
-      <link>https://krishnakarthik9.github.io/post/post1/</link>
+      <link>https://krishnakarthik.in/post/post1/</link>
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
-      <guid>https://krishnakarthik9.github.io/post/post1/</guid>
+      <guid>https://krishnakarthik.in/post/post1/</guid>
       <description>
 
 &lt;h2 id=&#34;why-spiffe-for-edge-computing&#34;&gt;Why SPIFFE for edge computing?&lt;/h2&gt;
