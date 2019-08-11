@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Krishna Karthik</title>
+    <link>https://krishnakarthik9.github.io/tags/</link>
+      <atom:link href="https://krishnakarthik9.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0530</lastBuildDate>
+    <image>
+      <url>https://krishnakarthik9.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://krishnakarthik9.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>edge computing</title>
+      <link>https://krishnakarthik9.github.io/tags/edge-computing/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/tags/edge-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edge computing platform</title>
+      <link>https://krishnakarthik9.github.io/tags/edge-computing-platform/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/tags/edge-computing-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8S edge orchestration</title>
+      <link>https://krishnakarthik9.github.io/tags/k8s-edge-orchestration/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/tags/k8s-edge-orchestration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KubeEdge</title>
+      <link>https://krishnakarthik9.github.io/tags/kubeedge/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/tags/kubeedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes edge computing</title>
+      <link>https://krishnakarthik9.github.io/tags/kubernetes-edge-computing/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/tags/kubernetes-edge-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://krishnakarthik9.github.io/tags/security/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Krishna Karthik</title>
+    <link>https://krishnakarthik9.github.io/post/</link>
+      <atom:link href="https://krishnakarthik9.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0530</lastBuildDate>
+    <image>
+      <url>https://krishnakarthik9.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://krishnakarthik9.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Secure kubeedge using SPIFFE/SPIRE</title>
+      <link>https://krishnakarthik9.github.io/post/post1/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/post/post1/</guid>
+      <description>
+
+&lt;h2 id=&#34;why-spiffe-for-edge-computing&#34;&gt;Why SPIFFE for edge computing?&lt;/h2&gt;
+
+&lt;p&gt;Edge computing framework capabilities should be able to cloud-native design patterns and practices such as container orchestration, microservices, serverless computation which has led to increasing heterogenous deployment environments. Conventional practices for securing heterogenous deployments add complexity overhead to enforcing policies, prevention and detection of threats. Due to the increase in complexity, there is more scope of error in manageability and also, constraints the scalability of the applications across multiple production environments. In such cases, a common identity framework for workloads becomes necessary to avoid the pit-falls of conventional security policies (such as managing network policies that are based on rules for traffic between particular ip addresses) which affect implementation of distributed patterns.&lt;/p&gt;
+
+&lt;p&gt;This enables to build a security model which is application-oriented rather than infrastructure-oriented.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-spiffe-and-spire&#34;&gt;What is SPIFFE and SPIRE?&lt;/h2&gt;
+
+&lt;p&gt;The SPIFFE standard provides a specification for a framework capable of bootstrapping and issuing identity to services across heterogeneous environments and organizational boundaries.&lt;/p&gt;
+
+&lt;p&gt;SPIFFE specification standardizes the process of assigning identities to workloads , verifying and validation of workload identities and workload API to retrieve the identities.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/spiffe/spiffe&#34; target=&#34;_blank&#34;&gt;https://github.com/spiffe/spiffe&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SPIFFE identities are encompassed in a SVID (SPIFFE Verifiable Identity Document). SVID specification provides the requirement for properties that must be supported when implementing SVID. Following link provides more information on SVID based on X509 certificate.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/spiffe/spiffe/blob/master/standards/X509-SVID.md&#34; target=&#34;_blank&#34;&gt;https://github.com/spiffe/spiffe/blob/master/standards/X509-SVID.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SPIRE is a toolchain implementation for SPIFFE specification that enables establishing trust between workloads (using mTLS or JWT) across different deployment environments,issue SPIFFE IDs and  workload API to retrieve workload SVIDs.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-does-spire-work&#34;&gt;How does SPIRE work?&lt;/h2&gt;
+
+&lt;p&gt;Following information is extracted from Scytale presentations which gives informative and simplistic view on how SPIRE works.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/reg.png&#34; alt=&#34;registration&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/node1.png&#34; alt=&#34;nodeattestion1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/node2.png&#34; alt=&#34;nodeattestion2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/wattest.png&#34; alt=&#34;Workloadattestation&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/sb1.png&#34; alt=&#34;svidbundle1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/sb2.png&#34; alt=&#34;svidbundle2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/sb3.png&#34; alt=&#34;svidbundle3&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-are-the-few-desired-security-requirements-for-kubeedge&#34;&gt;What are the few desired security requirements for Kubeedge?&lt;/h2&gt;
+
+&lt;p&gt;Security is a paramount requirement for edge computing architecture as security breaches can make a complete organization to come to a halt (IIot) , data breach can lead to privacy issues and also control of the complete edge computing infrastructure. Few of the security requirements for deployment for kubeedge framework and edge application, but not limited to, are&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;An identifiable edge node and workloads executing on the edge node.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A method to verify the authenticity of the node and workloads executing on the node.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Automated rotation of security credentials.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Limit the affect of SPOF (in case of security-related events).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Auditable security information about node and workloads in the environment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Limit access of user workloads to framework components and cloud.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Secure device provisioning.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Device identity management and access control.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;how-spire-helps-kubeedge&#34;&gt;How SPIRE helps Kubeedge?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Node attestation: Only verifiable edge nodes can join the edge clusters. Every node is issued an identity on verification. In case of failed node attestations, no identity documents can be issued for services running on the node.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Workload attestation: Only verifiable workload can run on edge nodes. In case of failed workload attestations, there are no identities issues for the workloads. All communications are blocked from unverified workloads.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Certificate rotation: Short-lived certificates are generated and rotation policies can be configured for every service communication. There is no need for custom agents and reliance on specific orchestrators for certificate rotation configuration and management.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Automated non-root CA certificate heirarchical deployments: Edge spire servers can be configured to not share any root CA chain for downstream nodes and workloads.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;example-demo&#34;&gt;Example Demo&lt;/h2&gt;
+
+&lt;p&gt;In the present example PoC, there is no solution implemented for secure device provisioning and identity management. It will be added in the forthcoming versions. An example demo using SPIRE for secure deployment of edge node and sample applications can be found at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubeedge/examples/tree/master/security-demo&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;https://github.com/kubeedge/examples/tree/master/security-demo&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

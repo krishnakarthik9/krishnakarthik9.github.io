@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Li &#34;Cindy&#34; Xing | Krishna Karthik</title>
+    <link>https://krishnakarthik9.github.io/authors/li-cindy-xing/</link>
+      <atom:link href="https://krishnakarthik9.github.io/authors/li-cindy-xing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Li &#34;Cindy&#34; Xing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Dec 2018 14:35:00 +0530</lastBuildDate>
+    <image>
+      <url>https://krishnakarthik9.github.io/img/icon-192.png</url>
+      <title>Li &#34;Cindy&#34; Xing</title>
+      <link>https://krishnakarthik9.github.io/authors/li-cindy-xing/</link>
+    </image>
+    
+    <item>
+      <title>Introducing KubeEdge</title>
+      <link>https://krishnakarthik9.github.io/talk/talk1/</link>
+      <pubDate>Thu, 13 Dec 2018 14:35:00 +0530</pubDate>
+      <guid>https://krishnakarthik9.github.io/talk/talk1/</guid>
+      <description>
+
+&lt;h2 id=&#34;from-the-talk-deep-dive-kubernetes-iot-edge-wg&#34;&gt;From the talk Deep Dive: Kubernetes IoT Edge WG&lt;/h2&gt;
+
+&lt;p&gt;What are the workloads that are unique or common to running Kubernetes on the edge? How do they take advantage of existing Kubernetes features, or require refinements and new capabilities? We’ll dive into the use cases, functional requirements and unique challenges of deploying IoT and Edge workloads on Kubernetes and discuss the technical challenges involved today. With the goal of addressing the challenges, we’ll have a panel discussion to share views and ideas on potential platform improvements. The session will close with audience participation and Q&amp;amp;A.&lt;/p&gt;
+
+&lt;h2 id=&#34;speakers&#34;&gt;Speakers&lt;/h2&gt;
+
+&lt;h3 id=&#34;cindy-xing-senior-cloud-software-architect-huawei&#34;&gt;Cindy Xing (Senior Cloud Software Architect, Huawei)&lt;/h3&gt;
+
+&lt;p&gt;Cindy Xing currently works at Huawei as a Senior Cloud Software Architect.She focuses on building Huawei Platform as a Service infrastructure for Huawei public cloud.Her interest area includes Kubernetes, container, Windows and Edge technologies.&lt;/p&gt;
+
+&lt;h3 id=&#34;dejan-bosanac-software-engineer-red-hat&#34;&gt;Dejan Bosanac (Software Engineer, Red Hat)&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m an engineer at Red Hat with broad expertise in messaging and integration technologies. I’ve been an active member of open source communities for many years and a contributor to various projects.&lt;/p&gt;
+
+&lt;h3 id=&#34;preston-holmes-head-of-iot-solutions-google-cloud&#34;&gt;Preston Holmes (Head of IoT Solutions, Google Cloud)&lt;/h3&gt;
+
+&lt;p&gt;Preston Holmes is Head of IoT solutions for Google Cloud Platform. A recovering academic, Preston moved from fish brains to technology 15 years ago, becoming deeply involved in the world of Python open source web frameworks.&lt;/p&gt;
+
+&lt;h3 id=&#34;steve-wong-software-engineer-cloud-native-business-unit-vmware&#34;&gt;Steve Wong (Software Engineer, Cloud Native Business Unit, VMware)&lt;/h3&gt;
+
+&lt;p&gt;Developer interested in containers, storage, virtualization, IoT, machine learning, streaming data analytics, and cloud native application technology. Active in Kubernetes storage community since 2015. Chair of Kubernetes VMware SIG.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
