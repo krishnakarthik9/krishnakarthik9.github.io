@@ -13,22 +13,6 @@
     </image>
     
     <item>
-      <title>edge computing</title>
-      <link>https://krishnakarthik.in/tags/edge-computing/</link>
-      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
-      <guid>https://krishnakarthik.in/tags/edge-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>edge computing platform</title>
-      <link>https://krishnakarthik.in/tags/edge-computing-platform/</link>
-      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
-      <guid>https://krishnakarthik.in/tags/edge-computing-platform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>K8S edge orchestration</title>
       <link>https://krishnakarthik.in/tags/k8s-edge-orchestration/</link>
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
@@ -41,6 +25,22 @@
       <link>https://krishnakarthik.in/tags/kubeedge/</link>
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
       <guid>https://krishnakarthik.in/tags/kubeedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edge computing</title>
+      <link>https://krishnakarthik.in/tags/edge-computing/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik.in/tags/edge-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edge computing platform</title>
+      <link>https://krishnakarthik.in/tags/edge-computing-platform/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0530</pubDate>
+      <guid>https://krishnakarthik.in/tags/edge-computing-platform/</guid>
       <description></description>
     </item>
     
